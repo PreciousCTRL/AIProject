@@ -134,3 +134,14 @@ h1{
         background-color: white;
         color: #4b3b4f;
       }
+/* Apply font to all text inside the navbar */
+.navbar {
+  font-family: 'Poppins', sans-serif; /* or any other font you prefer */
+}
+
+/* Optional: you can specifically style the links if you want */
+.navbar .nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500; /* optional for medium bold text */
+  font-size: 16px;  /* adjust as needed */
+}
