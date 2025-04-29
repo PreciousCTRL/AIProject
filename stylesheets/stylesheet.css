@@ -1,0 +1,136 @@
+body {
+    padding-top: 70px;
+} 
+.navbar-nav > li > .dropdown-menu { 
+    background-color: #846f84; 
+    color:white;
+}
+
+.navbar-nav > li > .dropdown-menu  a {  
+    color:white;
+}
+
+.navbar-nav > li > .dropdown-menu  a:hover {  
+    color:black;
+}
+
+h1{
+    font-family:'Libre Baskerville';
+}
+
+
+
+.dropdown-toggle::after {
+    transition: transform 0.2s ease; /* Adjust duration and easing as desired */
+  }
+  
+  .dropdown-toggle.show::after {
+    transform: rotate(180deg); /* Rotate 180 degrees to point down when expanded */
+  }
+
+  .dropdown-menu a:active {
+    background-color: white;
+    color: white; /* optional for contrast */
+}
+
+.card-custom {
+      background-color: #4b3b4f;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      padding-top: 60px;
+      padding-bottom: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .card-img-top {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      background: white;
+      padding: 5px;
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+
+    .btn-read {
+      background-color: transparent;
+      border: 2px solid white;
+      color: white;
+      border-radius: 20px;
+      padding: 5px 15px;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .btn-read:hover {
+      background-color: white;
+      color: #4b3b4f;
+    }
+
+
+
+
+    .card-custom {
+        background-color: #4b3b4f;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        padding-top: 50px;
+        padding: 60px 20px 20px 20px;
+        position: relative;
+        height: 100%;
+      }
+  
+      .card-img-top {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 10px;
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        background: white;
+        padding: 5px;
+      }
+  
+      .card-title {
+        font-weight: bold;
+        font-size: 1.1rem;
+        text-align: left;
+      }
+  
+      .card-text {
+        text-align: left;
+        font-size: 0.95rem;
+      }
+  
+      .btn-read {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        border-radius: 20px;
+        padding: 5px 15px;
+        font-size: 0.85rem;
+        font-weight: bold;
+        float: right;
+        transition: 0.3s;
+      }
+  
+      .btn-read:hover {
+        background-color: white;
+        color: #4b3b4f;
+      }
