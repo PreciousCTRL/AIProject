@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Images/official-logo.png">
+    <link rel="shortcut icon" href="/Images/official-logo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -16,8 +16,8 @@
     <section id="nav-bar">
       <nav class="navbar fixed-top navbar-expand-lg bg-white" style="box-shadow: 0px 1px  rgba(70, 70, 70, 0.5);">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="Images/official-logo.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">
+            <a class="navbar-brand" href="index.html">
+              <img src="/Images/official-logo.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -61,9 +61,10 @@
   </section>
   
   <div class="website">
+
       <aside class = "side-bar">
-        <h3>Name of Field</h3>
         <nav class="menu"></nav>
+          <h3>Name of Field</h3>
           <a href="#" class="menu-item is-active">Overview</a>
           <a href="AIField.html" class="menu-item">Sub Topic</a>
           <a href="#" class="menu-item">Sub Topic</a>
@@ -77,12 +78,16 @@
         </nav>
       </aside>
 
-
+      <div class="menu-toggle">
+        <div class="arrow-icon">
+            <img src="Images/ArrowIconback.png">
+        </div>
+    </div>
 
       <main class = "content">
         <div class="container mt-5 px-5">
           <h1 class ="text-center">Overview</h1>
-          <img src = "Images/Banner sample.png " class="img-fluid">
+          <img src = "/Images/Banner sample.png " class="img-fluid">
           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="display-5">A</span>I is transforming the medical field by improving diagnosis, predicting health risks, and 
             personalizing treatments. It aids in analyzing medical images such as X-rays and MRIs for 
             disease detection, while also analyzing patient records to forecast potential health issues. 
@@ -103,7 +108,7 @@
         <div class="container mt-5 px-5">
           <div class="row">
             <div class ="col-md">
-              <img src="Images/Default size.png" class="d-md-block img-fluid" style="background-color: red;">
+              <img src="/Images/Default size.png" class="d-md-block img-fluid" style="background-color: red;">
             </div>
             <div class="col-md">
               <h1>How AI Is Changing the Medical Field</h1>
@@ -167,7 +172,7 @@
       <div class="container mt-5 px-5">
         <div class="row">
           <div class ="col-md">
-            <img src="Images/Default size.png" class="d-md-block img-fluid" style="background-color: red;">
+            <img src="/Images/Default size.png" class="d-md-block img-fluid" style="background-color: red;">
           </div>
           <div class="col-md">
             <h1>Where its being used?</h1>
@@ -182,17 +187,17 @@
       </div>
 
 
-      <div class="container-md mb-5 ">
+      <div class="container mb-5 ">
         <div class="accordion mt-5 px-5" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" collapseOne" style="font-family: poppins;font-size: 15px;">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" collapseOne" style="font-family: poppins;font-size: 15px;">
                 References
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p class="display-6" style="font-size:15px; line-height: 20px;">
+                <p class="display-6" style="font-size:15px; line-height: 20px;word-break: break-word;">
                   Barth, S. (2023, April 14). AI in Healthcare. ForeSee Medical. <a href="https://www.foreseemed.com/artificial-intelligence-in-healthcare" target="_blank">https://www.foreseemed.com/artificial-intelligence-in-healthcare</a>
                   <br>Coursera. (2024, October 17). AI in Health Care: Applications, Benefits, and Examples.  <a href="https://www.coursera.org/articles/ai-in-health-care" target="_blank">https://www.coursera.org/articles/ai-in-health-care</a>
 
@@ -221,23 +226,25 @@
       </div>
       </main>
     </div>
+
+    
     <footer class="footer">
-      <div class="container-fluid text-white">
+      <div class="container-fluid text-white pt-3">
         <div class="container">
           <div class="row">
             <div class="col-md-6 my-5">
               <div class="row">
-                <div class="col-md-12 bg-danger">
-                  <img src="Images/LogoFooter.png" class="img-fluiid">
+                <div class="col-md-12  text-center">
+                  <img src="Images/LogoFooter.png" class="d-md-block img-fluid ">
                 </div>
               </div>
               <div class="row">
-                <div class="col-sm-12 text-end">
-                  <button type="button" class="btn btn-link">Hello</button>
+                <div class="col-sm-12 text-center">
+                  <a class="btn btn-link text-white" style="font-family: poppins; font-size: 15px;" href="documentation.html">Documentation</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-6  mt-4">
+            <div class="col-sm-6  mt-4">
                 <div class="row">
                   <div class="col-md text-center">
                       <h3 class="display1" style="font-family: poppins;">About Us:</h3>
@@ -321,5 +328,18 @@
     </footer>
 
     
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const menu_toggle = document.querySelector('.menu-toggle');
+          const sidebar = document.querySelector('.side-bar');
+      
+          if (menu_toggle && sidebar) {
+              menu_toggle.addEventListener('click', () => {
+                  menu_toggle.classList.toggle('is-active');
+                  sidebar.classList.toggle('is-active');
+              });
+          }
+      });
+      </script>
 </body>
 </html>
