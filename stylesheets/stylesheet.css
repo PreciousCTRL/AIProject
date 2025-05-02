@@ -104,7 +104,7 @@ h1{
   }
 }
 
-@media (max-width:574px){
+@media (max-width:768px){
   .menu-toggle{
     display:block;
   }
