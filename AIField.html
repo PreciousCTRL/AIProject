@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/official-logo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href ="stylesheets/stylesheet.css" type="text/css">
-    <title>Ai in [Subtopic]</title><!--Change this to your SUBTOPIC-->
+    <title>[Field]</title>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <section id="nav-bar">
       <nav class="navbar fixed-top navbar-expand-lg bg-white" style="box-shadow: 0px 1px  rgba(70, 70, 70, 0.5);">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="/Images/official-logo.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">
+            <a class="navbar-brand" href="index.html">
+              <img src="Images/official-logo.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,7 @@
                     AI by Field
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item  active" href="#">Medical</a></li>
+                    <li><a class="dropdown-item  active" href="AIOverview.html">Medical</a></li>
                     <li><a class="dropdown-item" href="#">Business</a></li>
                     <li><a class="dropdown-item" href="#">Education</a></li>
                     <li><a class="dropdown-item" href="#">Security</a></li>
@@ -60,12 +61,13 @@
   </section>
   
   <div class="website">
+
       <aside class = "side-bar">
-        <h3>Name of Field</h3><!--Place name of field e.g Medical-->
         <nav class="menu"></nav>
+          <h3>Name of Field</h3>
           <a href="AIOverview.html" class="menu-item">Overview</a>
-          <a href="#" class="menu-item is-active">Sub Topic</a> <!--Change your subtopic name-->
-          <a href="#" class="menu-item">Sub Topic</a><!--Make sure that the linking is correct-->
+          <a href="#" class="menu-item is-active">Sub Topic</a>
+          <a href="#" class="menu-item">Sub Topic</a>
           <a href="#" class="menu-item">Sub Topic</a>
           <a href="#" class="menu-item">Sub Topic</a>
           <a href="#" class="menu-item">Sub Topic</a>
@@ -76,48 +78,51 @@
         </nav>
       </aside>
 
-
+      <div class="menu-toggle">
+        <div class="arrow-icon">
+            <img src="Images/ArrowIconback.png">
+        </div>
+    </div>
 
       <main class = "content">
+
+        <!--First Part-->
         <div class="container mt-5 px-5">
-          <h1 class ="text-center">Power of AI in detecting, diagnosing and delivering</h1><!--TITLE OF THE SUBTOPIC-->
-          <img src = "/Images/Banner sample.png " class="img-fluid"> <!--BANNER-->
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="display-5">A</span>rtificial intelligence plays a vital role in modern diagnostics. It analyzes 
-            complex medical data such as medical images including X-rays, MRIs, and CT scans, electronic health records, genetic information, and patient-reported symptoms. 
-            These AI systems assist healthcare professionals in detecting, monitoring, and diagnosing diseases. The primary goal is not to replace clinicians but to support
-             them by improving diagnostic accuracy, minimizing human error, and enhancing clinical workflows for more efficient and informed patient care.
-
-            <br>
-            <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Traditional diagnosis relies heavily on physician expertise, manual data review, and clinical experience. AI processes large 
-            volumes of data quickly and identifies subtle patterns not easily seen by humans.
-
+          <h1 class ="text-center">Power of AI in detecting, diagnosing and delivering</h1>
+          <img src = "Images/Banner sample.png " class="img-fluid">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="display-5">A</span>rtificial intelligence plays a vital role in modern diagnostics. It analyzes complex medical
+             data such as medical images including X-rays, MRIs, and CT scans, electronic health records, genetic information, and patient-reported symptoms. These AI 
+             systems assist healthcare professionals in detecting, monitoring, and diagnosing diseases. The primary goal is not to replace clinicians but to support them
+              by improving diagnostic accuracy, minimizing human error, and enhancing clinical workflows for more efficient and informed patient care.
             </p>
           </div>
-
+        
+        <!--second part-->
         <div class="container mt-5 px-5">
-          <div class="row text-center">
-            <h1>How AI Is Changing the Medical Field</h1>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1>What is the role of AI in Diagnosing</h1>
+            </div>
           </div>
           <div class="row">
             <div class ="col-md">
-              <img src="/Images/Default size.png" class="d-md-block img-fluid" style="background-color: red;">
+              <img src="Images/Default size.png" class="d-md-block img-fluid" style="background-color: red;">
             </div>
             <div class="col-md">
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In diagnostics and imaging, AI algorithms are used to analyze X-rays, 
                 CT scans, and MRIs, detecting diseases like cancer and neurological disorders 
                 with remarkable accuracy and speed. For instance, AI models have achieved diagnostic 
                 accuracies over 90% for certain cancers and viral infections, and can identify abnormalities
-                 in just minutes, enabling faster and more reliable diagnoses <i>(Rahman et al., 2024)</i>
+                 in just minutes, enabling faster and more reliable diagnoses <i>(Rahman et al., 2024)</i>.
               </p>
             </div>
           </div>
         </div>
 
         <div class="container mt-5 px-5">
-          <div class="row mt-5">
+          <div class="row">
             <div class="col-md">
-              <h1>What is the role of AI in Diagnosing</h1>
+              <h1>Real World Application of AI in Diagnosing</h1>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Machine Learning enables computers  to learn from vast
                  datasets and identify patterns to make predictions or recommendations. Used widely for 
                  diagnostics, risk prediction, and treatment planning <i>(Barth, 2024)</i>.
@@ -159,35 +164,18 @@
       </div>
       </div>
 
-      <div class="container mt-5 px-5">
-        <div class="row">
-          <div class ="col-md">
-            <img src="/Images/Default size.png" class="d-md-block img-fluid" style="background-color: red;">
-          </div>
-          <div class="col-md">
-            <h1>Real World Application</h1>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zebra Medical Vision uses deep learning and computer vision 
-              to analyze radiology images, assisting radiologists in detecting conditions like cancer,
-               cardiovascular issues, and liver diseases. Their AI improves diagnostic accuracy by 25%, 
-               reduces misdiagnoses, and speeds up report turnaround times, enhancing overall efficiency 
-               and patient care <i>(Filipsson, 2025)</i>.
-            </p>
-          </div>
-        </div>
-      </div>
 
-
-      <div class="container-md mb-5 ">
+      <div class="container mb-5 ">
         <div class="accordion mt-5 px-5" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" collapseOne" style="font-family: poppins;font-size: 15px;">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" collapseOne" style="font-family: poppins;font-size: 15px;">
                 References
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p class="display-6" style="font-size:15px; line-height: 20px;">
+                <p class="display-6" style="font-size:15px; line-height: 20px;word-break: break-word;">
                   Barth, S. (2023, April 14). AI in Healthcare. ForeSee Medical. <a href="https://www.foreseemed.com/artificial-intelligence-in-healthcare" target="_blank">https://www.foreseemed.com/artificial-intelligence-in-healthcare</a>
                   <br>Coursera. (2024, October 17). AI in Health Care: Applications, Benefits, and Examples.  <a href="https://www.coursera.org/articles/ai-in-health-care" target="_blank">https://www.coursera.org/articles/ai-in-health-care</a>
 
@@ -214,25 +202,27 @@
           </div>
         </div>
       </div>
-      </main>.
+      </main>
     </div>
+
+
     <footer class="footer">
-      <div class="container-fluid text-white">
+      <div class="container-fluid text-white pt-3">
         <div class="container">
           <div class="row">
             <div class="col-md-6 my-5">
               <div class="row">
-                <div class="col-md-12 bg-danger">
-                  <img src="Images/LogoFooter.png" class="img-fluiid">
+                <div class="col-md-12  text-center">
+                  <img src="Images/LogoFooter.png" class="d-md-block img-fluid ">
                 </div>
               </div>
               <div class="row">
-                <div class="col-sm-12 text-end">
-                  <button type="button" class="btn btn-link">Hello</button>
+                <div class="col-sm-12">
+                  <a class="btn btn-link text-white" style="font-family: poppins; font-size: 15px;" href="documentation.html">Documentation</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-6  mt-4">
+            <div class="col-sm-6  mt-4">
                 <div class="row">
                   <div class="col-md text-center">
                       <h3 class="display1" style="font-family: poppins;">About Us:</h3>
@@ -255,7 +245,7 @@
                   </a>
                   </div>
                   <div class="col-md-2">
-                    <a href="" target="_display" class="personalWebsite"></a>
+                    <a href="https://gilrobraceros.github.io/GilroPortfolio/index.html?fbclid=IwY2xjawKBOv1leHRuA2FlbQIxMABicmlkETFGNnNzVnpnS3RKcnlXbzliAR4NNQM5vj24OAfqOHBbAwqE_K_qfc2QjqIGtdsj1v0mKLb8Ifd9Wb4s_xnpDg_aem_vOOKu1PeV3FfxzxxVh9L2Q" target="_display" class="personalWebsite">
                     <img src="Images/Braceros1x1jpeg.jpeg" class="rounded-circle" width="80px" height="80px">
                     <p>Braceros, Gilro</p>
                   </a>
@@ -273,7 +263,7 @@
                   </a>
                   </div>
                   <div class="col-md-2">
-                    <a href="" target="_display" class="personalWebsite">
+                    <a href="https://kimberlyejon.github.io/MIDTERMS-PERSONAL-WEBSITE/" target="_display" class="personalWebsite">
                     <img src="Images/Ejon1x1.jpeg" class="rounded-circle" width="80px" height="80px">
                     <p>Ejon, Kimberly</p>
                   </a>
@@ -309,19 +299,25 @@
                   </a>
                   </div>
                 </div>
-
-
-
-              
-
-
             </div>
           </div>
         </div>
       </div>
     </footer>
 
-
     
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const menu_toggle = document.querySelector('.menu-toggle');
+          const sidebar = document.querySelector('.side-bar');
+      
+          if (menu_toggle && sidebar) {
+              menu_toggle.addEventListener('click', () => {
+                  menu_toggle.classList.toggle('is-active');
+                  sidebar.classList.toggle('is-active');
+              });
+          }
+      });
+      </script>
 </body>
 </html>
