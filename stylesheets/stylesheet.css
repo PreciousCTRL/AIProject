@@ -33,107 +33,8 @@ h1{
     color: white; /* optional for contrast */
 }
 
-.card-custom {
-      background-color: #4b3b4f;
-      color: white;
-      border: none;
-      border-radius: 15px;
-      padding-top: 60px;
-      padding-bottom: 20px;
-      text-align: center;
-      position: relative;
-    }
-
-    .card-img-top {
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
-      border-radius: 10px;
-      position: absolute;
-      top: -40px;
-      left: 50%;
-      transform: translateX(-50%);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      background: white;
-      padding: 5px;
-    }
-
-    .card-title {
-      font-weight: bold;
-      font-size: 1.25rem;
-    }
-
-    .btn-read {
-      background-color: transparent;
-      border: 2px solid white;
-      color: white;
-      border-radius: 20px;
-      padding: 5px 15px;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-
-    .btn-read:hover {
-      background-color: white;
-      color: #4b3b4f;
-    }
 
 
-
-
-    .card-custom {
-        background-color: #4b3b4f;
-        color: white;
-        border: none;
-        border-radius: 15px;
-        padding-top: 50px;
-        padding: 60px 20px 20px 20px;
-        position: relative;
-        height: 100%;
-      }
-  
-      .card-img-top {
-        width: 60px;
-        height: 60px;
-        object-fit: cover;
-        border-radius: 10px;
-        position: absolute;
-        top: -30px;
-        left: 50%;
-        transform: translateX(-50%);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-        background: white;
-        padding: 5px;
-      }
-  
-      .card-title {
-        font-weight: bold;
-        font-size: 1.1rem;
-        text-align: left;
-      }
-  
-      .card-text {
-        text-align: left;
-        font-size: 0.95rem;
-      }
-  
-      .btn-read {
-        background-color: transparent;
-        border: 2px solid white;
-        color: white;
-        border-radius: 20px;
-        padding: 5px 15px;
-        font-size: 0.85rem;
-        font-weight: bold;
-        float: right;
-        transition: 0.3s;
-      }
-  
-      .btn-read:hover {
-        background-color: white;
-        color: #4b3b4f;
-      }
 /* Apply font to all text inside the navbar */
 .navbar {
   font-family: 'Poppins', sans-serif; /* or any other font you prefer */
@@ -144,4 +45,112 @@ h1{
   font-family: 'Poppins', sans-serif;
   font-weight: 500; /* optional for medium bold text */
   font-size: 16px;  /* adjust as needed */
+}
+
+.website{
+  display: flex;
+  min-height: 100vh;
+}
+.side-bar{
+  font-family: poppins;
+  max-width: 250px;
+  width:250px;
+  padding:2rem 1rem;
+  background-color: #5b4b5b;
+  overflow: auto;
+  top:0;
+  position:sticky;
+  height: 100vh;
+}
+.side-bar h3{
+  color: white;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin:0.5rem;
+}
+
+.side-bar .menu{
+  margin: 0 -1rem;
+}
+
+.personalWebsite{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-item{
+  display: block;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.menu-item:hover,
+.is-active{
+  margin-left: 10px;
+  color:white;
+  border-right:5px solid pink;
+}
+
+
+@media (max-width:1024px){
+  .side-bar{
+    max-width: 150px;
+    overflow-y: scroll;
+  }
+  .banner{
+    object-fit: fit;
+  }
+}
+
+@media (max-width:574px){
+  .menu-toggle{
+    display:block;
+  }
+  .side-bar{
+    position:fixed;
+    top: 0;
+    left: -300px;
+    height:-100vh;
+    width:-100%;
+    max-width: 300px;
+    transition: 0.2s linear;
+    scrollbar-width: none;
+    border: 1px solid #AAA;
+    overflow: hidden;
+  }
+  .website{
+    display: flex;
+    min-height: 100vh;
+  }
+  .menu{
+    height: 100%;
+    margin-right: -50px; /* Maximum width of scrollbar */
+    padding-right: 50px; /* Maximum width of scrollbar */
+    overflow-y: scroll;
+  }
+  .sidebar.is-active{
+    left:0px;
+  }
+
+  .content{
+    padding-top:1rem;
+    margin-left:0px;
+    margin-right: 0px;
+    padding-right: 0%;
+  }
+  
+}
+.banner{
+  object-fit: cover;
+}
+
+.content p{
+  font-size:22px;
+  letter-spacing: 1px;
+}
+.footer{
+  background-color: #3c443f;
+  z-index: 1;
 }
