@@ -177,6 +177,7 @@ h1{
 .content p{
   font-size:22px;
   letter-spacing: 1px;
+  text-align: justify;
 }
 .footer{
   background-color: #3c443f;
@@ -190,4 +191,21 @@ h1{
 .accordion-button {
   background-color: #5b4b5b;
   color: white;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Change accordion arrow color */
+.accordion-button::after {
+  filter: brightness(0) invert(1); /* Makes the default blue arrow white */
+}
+
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+  background-color: rgb(255, 255, 255); /* Your desired background color */
+  color: #000000; /* Your desired text color */
 }
